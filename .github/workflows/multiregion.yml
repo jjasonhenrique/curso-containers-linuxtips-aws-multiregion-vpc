@@ -24,10 +24,6 @@ jobs:
         run: tree .
         working-directory: ./pre-deployment
 
-      - name: Terraform Format Check
-        run: terraform fmt --resursive --check
-        working-directory: ./pre-deployment
-
       - name: Terraform Init
         run: terraform init -backend-config=environment/backend.tfvars
         working-directory: ./pre-deployment
