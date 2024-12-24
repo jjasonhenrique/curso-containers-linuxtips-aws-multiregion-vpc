@@ -6,7 +6,7 @@ provider "aws" {
 }
 
 provider "aws" {
-  alias = "peer"
+  alias                    = "peer"
   shared_config_files      = ["/home/jason/.aws/config"]
   shared_credentials_files = ["/home/jason/.aws/credentials"]
   profile                  = "blog"
