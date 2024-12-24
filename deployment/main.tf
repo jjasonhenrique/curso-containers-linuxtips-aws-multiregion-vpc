@@ -1,6 +1,6 @@
 module "vpc" {
   #source = "/home/jason/Utils/Github/curso-containers-linuxtips-aws-modules/vpc"
-  source = "github.com/jjasonhenrique/curso-containers-linuxtips-aws-modules.git//vpc?ref=v1.0.0"
+  source = "github.com/jjasonhenrique/curso-containers-linuxtips-aws-modules.git//vpc?ref=v1.1.0"
 
   project_name = var.project_name
 
