@@ -27,6 +27,7 @@ private_subnets = [
     availability_zone = "sa-east-1c"
   }
 ]
+
 public_subnets = [
   {
     name              = "public-1a"
