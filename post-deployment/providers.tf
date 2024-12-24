@@ -1,8 +1,8 @@
 provider "aws" {
-  region                   = var.region
+  region = var.region
 }
 
 provider "aws" {
-  alias                    = "peer"
-  region                   = var.region_peer
+  alias  = "peer"
+  region = var.region_peer
 }
