@@ -25,7 +25,7 @@ jobs:
         working-directory: ./pre-deployment
 
       - name: Terraform Format Check
-        run: terraform fmt --resursive --check
+        run: terraform fmt --recursive --check
         working-directory: ./pre-deployment
 
       - name: Terraform Init
