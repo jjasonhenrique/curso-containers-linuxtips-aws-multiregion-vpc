@@ -1,4 +1,3 @@
-# curso-containers-linuxtips-aws-multiregion-vpc
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -18,7 +17,9 @@ No resources.
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_region"></a> [region](#input\_region) | n/a | `any` | n/a | yes |
 
 ## Outputs
 
